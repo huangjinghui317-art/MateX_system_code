@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+
+# Environments / editors
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+
+# Models and checkpoints
+checkpoints/
+models/
+outputs/
+train_results/
+infer_results/
+checkpoint-*/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Local datasets (the public dataset is hosted separately)
+data/*.csv
+data/*.json
+data/*.jsonl
+data/*.pkl
+data/*.npz
+!data/README.md
+
+# Logs / temporary files
+*.log
+*.tmp
+.DS_Store

@@ -1,0 +1,18 @@
+# Core training / inference
+torch>=2.2,<3
+numpy>=1.26,<3
+pandas>=2.0
+tqdm>=4.66
+transformers>=4.44
+accelerate>=0.33
+peft>=0.12
+datasets>=2.20
+
+# Crystal / atomistic workflow
+pymatgen>=2024.6
+ase>=3.23
+chgnet>=0.3.8
+mattersim>=1.0
+
+# Optional: required only for --use_4bit / QLoRA on supported NVIDIA systems
+bitsandbytes>=0.43; platform_system == "Linux"
