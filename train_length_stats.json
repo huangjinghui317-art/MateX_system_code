@@ -1,0 +1,10 @@
+{
+  "num_samples": 11434,
+  "seq_len_min": 681,
+  "seq_len_max": 1300,
+  "seq_len_mean": 868.8919888053175,
+  "target_len_min": 29,
+  "target_len_max": 33,
+  "target_len_mean": 30.75511631974812,
+  "num_truncated": 32
+}
